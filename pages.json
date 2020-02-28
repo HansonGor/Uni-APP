@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/pageOne/index",
+			"style": {
+				"navigationStyle": "custom" // 定义头部导航条
+			}
+		}, {
+			"path": "pages/pageTwo/index",
+			"style": {
+				"navigationBarTitleText": "电影列表"
+			}
+		}, {
+			"path": "pages/pageThree/index",
+			"style": {
+				"navigationBarTitleText": "电影观看"
+			}
+		},
+		{
+			"path": "pages/pageFour/index",
+			"style": {
+				"navigationBarTitleText": "第四页"
+			}
+		},
+		{
+			"path": "pages/pageFive/index",
+			"style": {
+				"navigationBarTitleText": "第五页"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#00000"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#4f84c8",
+	    "backgroundColor": "#323232",
+	    "list": [{
+	        "pagePath": "pages/pageTwo/index",
+	        "text": "电影"
+	    }, {
+	        "pagePath": "pages/pageFour/index",
+	        "text": "第四"
+	    },{
+	        "pagePath": "pages/pageFive/index",
+	        "text": "第五"
+	    }]
+	}
+}
