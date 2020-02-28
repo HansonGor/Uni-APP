@@ -1,5 +1,5 @@
 <template>
-	<view class="pageThree"><web-view :src="filmVideoUrl"></web-view></view>
+	<view class="pageThree"><web-view :src="filmVideoUrl" class="webview"></web-view></view>
 </template>
 
 <script lang="ts">
@@ -22,5 +22,11 @@ export default {
 <style>
 .pageThree {
 	color: white;
+	width: 100%;
+	height: 100%;
+}
+.webview{
+	width: 100%;
+	height: 100%;
 }
 </style>

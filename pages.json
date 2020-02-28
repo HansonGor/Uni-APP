@@ -31,6 +31,9 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
+		"h5":{
+			"titleNView": false
+		},
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#000000",
 		"backgroundColor": "#00000"
