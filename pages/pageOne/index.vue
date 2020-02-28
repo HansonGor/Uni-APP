@@ -17,14 +17,17 @@ export default {
   computed:{
 	  coverImg: function (): string {
 		  const  num:number = (parseInt as any)(Math.random() * 3 + 1)
-		  return `http://120.24.170.202:24/image/cover${num}.jpg`
+		  return `http://120.24.170.202:88/image/cover${num}.jpg`
 	  }
   },
   methods: {
     goPageTwo (): void {
-      uni.switchTab({
-        url: '../pageTwo/index'
-      })
+      // uni.switchTab({
+      //   url: '../pageTwo/index'
+      // })
+	  uni.navigateTo({
+	    url: '../pageTwo/index'
+	  })
     }
   }
 };
@@ -40,7 +43,7 @@ export default {
 .pageOne {
   width: 100%;
   height: 100%;
-  // background-image: url("http://120.24.170.202:24/image/pageOneCover.jpg");
+  // background-image: url("http://120.24.170.202:88/image/pageOneCover.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;

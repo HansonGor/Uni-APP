@@ -34,20 +34,20 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#000000",
 		"backgroundColor": "#00000"
-	},
-	"tabBar": {
-	    "color": "#7A7E83",
-	    "selectedColor": "#4f84c8",
-	    "backgroundColor": "#323232",
-	    "list": [{
-	        "pagePath": "pages/pageTwo/index",
-	        "text": "电影"
-	    }, {
-	        "pagePath": "pages/pageFour/index",
-	        "text": "第四"
-	    },{
-	        "pagePath": "pages/pageFive/index",
-	        "text": "第五"
-	    }]
 	}
+	// "tabBar": {
+	//     "color": "#7A7E83",
+	//     "selectedColor": "#4f84c8",
+	//     "backgroundColor": "#323232",
+	//     "list": [{
+	//         "pagePath": "pages/pageTwo/index",
+	//         "text": "电影"
+	//     }, {
+	//         "pagePath": "pages/pageFour/index",
+	//         "text": "第四"
+	//     },{
+	//         "pagePath": "pages/pageFive/index",
+	//         "text": "第五"
+	//     }]
+	// }
 }
