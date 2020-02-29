@@ -16,7 +16,8 @@ export default {
   },
   computed:{
 	  coverImg: function (): string {
-		  const  num:number = (parseInt as any)(Math.random() * 4 + 1)
+		  const  num:number = 1
+		  // const  num:number = (parseInt as any)(Math.random() * 4 + 1)
 		  return `http://120.24.170.202:88/image/cover${num}.jpg`
 	  }
   },

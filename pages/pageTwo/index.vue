@@ -88,11 +88,12 @@ export default {
 	},
 	methods: {
 		handleMain1: function(e: any): void {
-			if (e.detail.scrollTop > 20) {
-				(this as any).isShowMainOne = false;
-			} else {
-				(this as any).isShowMainOne = true;
-			}
+			(this as any).isShowMainOne = e.detail.scrollTop > 0 ? false : true;
+			// if (e.detail.scrollTop > 20) {
+			// 	(this as any).isShowMainOne = false;
+			// } else {
+			// 	(this as any).isShowMainOne = true;
+			// }
 		},
 		goPageThree(filmVideoUrl: string): void {
 			uni.navigateTo({
